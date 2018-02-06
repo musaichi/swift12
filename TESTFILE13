@@ -1,0 +1,7 @@
+let addition: (Int,Int) -> Int = {(a:Int, b:Int) -> Int in return a + b}
+
+
+let m : Int = 21
+let n : Int = 10
+let result : (Int, Int) = (addition(m, n), subtraction(m, n))
+print(result.0, result.1)
